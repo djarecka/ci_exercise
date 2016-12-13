@@ -1,0 +1,16 @@
+What is provided:
+  * from the previous part: 
+    - a simple test that checks proper averages `test_code.py`
+    - a small file with example data `pets_data.txt`
+    - code for simple statistics based on data from file without using NumPy `code_nonp.py`
+    - `test_functions.py` for testing all functions from `code_nonp.py`
+
+What should be done?
+  * adjusting the tests from `test_functions.py`, so arrays are passed to the tested function 
+  * creating `code_np.py` that uses NumPy arrays instead of lists (so it works better for big files),
+    it might NOT use loops, it should use NumPy methods, e.g. np.where 
+  * passing the tests by running `py.test`
+
+
+How can be verified?
+  * replacing `code_np.py` with the code with bugs and running `py.test`

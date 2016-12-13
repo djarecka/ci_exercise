@@ -1,0 +1,15 @@
+What is provided:
+  * from the previous part: 
+    - a simple test that checks proper averages `test_code.py`
+    - a small file with example data `pets_data.txt`
+    - code for simple statistics using NumPy `code_np.py`
+    - `test_functions.py` for testing all functions from `code_np.py`
+    - `test_exceptions.py` for testing unwanted input or behaviors
+
+
+What should be done?
+  * creating  `.travis.yml` file
+
+
+How can be verified?
+  * running travis using tests that should pass and tests that should fail 

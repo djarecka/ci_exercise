@@ -1,0 +1,14 @@
+What is provided:
+  * a simple test that checks proper averages `test_code.py`
+  * a small file with example data `pets_data.txt`
+
+What should be done?
+  * creating `code_nonp.py`, the code should do some simple statistics based on data from file. 
+    The simplest version, without using NumPy.
+    Should contain 2-3 functions:
+      - reading data from a file
+      - simple statistics using the data
+  * passing the test by running `py.test`
+
+How can be verified?
+  * creating extended `test_code.py` with additional examples and running `py.test` 

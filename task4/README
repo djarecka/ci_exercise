@@ -1,0 +1,18 @@
+What is provided:
+  * from the previous part: 
+    - a simple test that checks proper averages `test_code.py`
+    - a small file with example data `pets_data.txt`
+    - code for simple statistics using NumPy `code_np.py`
+    - `test_functions.py` for testing all functions from `code_np.py`
+  * new files:
+    - `test_exceptions.py` that contains a "template" for testing unwanted input or behaviors
+
+
+What should be done?
+  * filling the tests from `test_exceptions.py`
+  * improving functions from `code_np.py`
+  * passing the tests by running `py.test`
+
+
+How can be verified?
+  * checking `code_np.py` with various input that should lead to raising exceptions etc. 

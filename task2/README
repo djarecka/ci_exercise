@@ -1,0 +1,15 @@
+What is provided:
+  * from the previous part: 
+    - a simple test that checks proper averages `test_code.py`
+    - a small file with example data `pets_data.txt`
+    - code for simple statistics based on data from file without using NumPy `code_nonp.py`
+  * new files:
+    - `test_functions.py` with some "template" for testing all functions from `code_nonp.py`
+
+What should be done?
+  * filling all tests from `test_functions.py`
+  * passing the test by running `py.test`
+
+
+How can be verified?
+  * replacing `code_nonp.py` with the code with bugs and running `py.test`
