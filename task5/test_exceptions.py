@@ -3,7 +3,7 @@ import numpy as np
 import pytest, pdb
 
 @pytest.mark.parametrize("filename_incomplete", 
-                        ["pets_data_incomplete1.txt", "pets_data_incomplete2.txt"])
+                        ["data/pets_data_incomplete1.txt", "data/pets_data_incomplete2.txt"])
 def test_reading_fromfile_incompletedata(filename_incomplete):
     with pytest.raises(Exception):
         code.reading_fromfile(filename_incomplete)
