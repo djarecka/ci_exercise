@@ -24,7 +24,7 @@ def average_owners_age_fordogs(array):
     return age_av
 
 
-def main(filename="pets_data.txt"):
+def main(filename="data/pets_data.txt"):
     val_ar = reading_fromfile(filename)
     age_av_hum = dogowners_average_age(val_ar)
     age_av_dog = average_owners_age_fordogs(val_ar)

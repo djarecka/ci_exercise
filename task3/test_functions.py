@@ -4,7 +4,7 @@ import numpy as np
 def test_reading_fromfile():
     expected_age = [33, 44, 21, 66, 47, 31, 22, 51]
     expected_dogs = [4, 0, 1, 0, 1, 2, 0, 2]
-    assert (code.reading_fromfile("pets_data.txt") == np.column_stack((expected_age, expected_dogs))).all()
+    assert (code.reading_fromfile("data/pets_data.txt") == np.column_stack((expected_age, expected_dogs))).all()
 
 def test_dogowners_average_age():
     age = [11, 45, 21, 19]

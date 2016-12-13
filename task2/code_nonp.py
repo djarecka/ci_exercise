@@ -30,7 +30,7 @@ def average_owners_age_fordogs(age_l, dog_l):
     return age_av
 
 
-def main(filename="pets_data.txt"):
+def main(filename="data/pets_data.txt"):
     age_l, dogs_l = reading_fromfile(filename)
     age_av_hum = dogowners_average_age(age_l, dogs_l)
     age_av_dog = average_owners_age_fordogs(age_l, dogs_l)
