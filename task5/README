@@ -13,3 +13,7 @@ What should be done?
 
 How can be verified?
   * running travis using tests that should pass and tests that should fail 
+
+
+reading:
+  https://docs.travis-ci.com/user/languages/python/
