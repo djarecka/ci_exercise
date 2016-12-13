@@ -4,4 +4,4 @@ python:
   - "2.7"
   - "3.5"
 
-script: python task5/code_np.py
+script: py.test task5/
